@@ -22,7 +22,7 @@ body {
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.05;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
 }
@@ -117,12 +117,16 @@ body {
   color: #cf711f;
 }
 
-.nav-cta:link,
-.nav-cta:visited {
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   color: #fff;
   background: #e67e22;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
 
 /* ************************ */
@@ -179,4 +183,36 @@ body {
 
 .delivered-text span {
   color: #cf711f;
+}
+
+/* ************************ */
+/* HOW IT WORKS SECTION  */
+/* ************************ */
+.section-how {
+  padding: 9.6px 0;
+  background-color: orangered;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-how div div {
+  padding: 100px;
+  font-size: 50px;
+  background-color: #333;
 }
