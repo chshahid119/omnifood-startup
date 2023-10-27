@@ -37,12 +37,32 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* The Style which is common to the heading primary and heading secondary */
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: #343a40;
+  letter-spacing: -0.5px;
+}
+
 .heading-primary {
   font-size: 5.2rem;
-  font-weight: 700;
   line-height: 1.05;
-  letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
 }
 .btn:link,
 .btn:visited {
@@ -207,6 +227,9 @@ body {
 /* HOW IT WORKS SECTION  */
 /* ************************ */
 .section-how {
-  padding: 9.6px 0;
-  background-color: orangered;
+  padding: 9.6rem 0;
+}
+
+.step-img {
+  max-width: 50%;
 }
