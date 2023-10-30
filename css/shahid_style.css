@@ -200,9 +200,32 @@
 .section-meals {
   padding: 9.6rem 0;
 }
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  border-radius: 10rem;
+  font-weight: 600;
+  color: #333;
+}
 
 .meal-title {
-  font-style: 2rem;
+  font-size: 2rem;
   color: #333;
   font-weight: 600;
   margin-bottom: 3.2rem;
@@ -213,7 +236,18 @@
   flex-direction: column;
   gap: 2rem;
 }
-
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.meal-icon {
+  height: 2.2rem;
+  width: 2.2rem;
+  color: #cf711f;
+  /* font-size: 2.5rem; */
+}
 .meal-img {
   width: 100%;
 }
