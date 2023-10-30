@@ -211,6 +211,8 @@
 
 .meal-tags {
   margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
 }
 
 .tag {
@@ -218,10 +220,18 @@
   padding: 0.4rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  background-color: #51cf66;
   border-radius: 10rem;
   font-weight: 600;
   color: #333;
+}
+.tag--vegeterian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #94d82d;
+}
+.tag--paleo {
+  background-color: #ffd43b;
 }
 
 .meal-title {
@@ -250,4 +260,23 @@
 }
 .meal-img {
   width: 100%;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
 }
