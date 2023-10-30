@@ -204,6 +204,13 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.meal:hover {
+  transform: translateY(-1.22rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.2);
 }
 .meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
@@ -260,6 +267,15 @@
 }
 .meal-img {
   width: 100%;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.all-recipes a {
+  text-decoration: none;
+  color: yellow;
 }
 
 .list {
