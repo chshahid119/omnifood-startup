@@ -1,4 +1,3 @@
-<h1>Project Image</h1>
 ![Project Screenshot](./Omnifood.png)
 
 # omnifood-startup
