@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Always include this line of code!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -11,9 +13,9 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/shahid_general.css" />
-    <link rel="stylesheet" href="css/shahid_style.css" />
-    <link rel="stylesheet" href="css/shahid_media_queries.css" />
+    <link rel="stylesheet" href="css/general_styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media_queries.css" />
 
     <script
       type="module"
@@ -31,6 +33,7 @@
       <a href="#">
         <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
       </a>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">How it works</a></li>
@@ -40,6 +43,15 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+
+      <button
+        id="mobile-nav-btn"
+        aria-label="mobile-nav-icon"
+        class="btn-mobile-nav"
+      >
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -123,6 +135,7 @@
               matter what diet you follow!
             </p>
           </div>
+
           <div class="step-img-box">
             <img
               src="img/app/app-screen-1.png"
@@ -450,7 +463,7 @@
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
-          <div class="princing-plan princing-plan--starter">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
               <p class="plan-price"><span>$</span>399</p>
@@ -478,7 +491,7 @@
             </div>
           </div>
 
-          <div class="princing-plan princing-plan--complete">
+          <div class="pricing-plan pricing-plan--complete">
             <header class="plan-header">
               <p class="plan-name">Complete</p>
               <p class="plan-price"><span>$</span>649</p>
@@ -640,6 +653,7 @@
             Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
           </p>
         </div>
+
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
@@ -655,6 +669,7 @@
             </p>
           </address>
         </div>
+
         <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
@@ -685,5 +700,7 @@
         </nav>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
