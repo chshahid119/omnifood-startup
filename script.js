@@ -6,6 +6,11 @@ mobile_nav_icon.addEventListener("click", function () {
   header.classList.toggle("nav-open");
 });
 
+// Update year on daily basis in footer
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.innerText = currentYear;
+
 // Fixing flexbox gap property missing in some Safari Version
 function checkFlexGap() {
   var flex = document.createElement("div");
